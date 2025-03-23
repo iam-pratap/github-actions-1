@@ -9,5 +9,8 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v4
 
+            - name: List repo files
+              run: ls -ltra
+
             - name: Execute shell scripts
               run: ./scripts/auto.sh
