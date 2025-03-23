@@ -13,4 +13,4 @@ jobs:
               run: ls -ltra
 
             - name: Execute shell scripts
-              run: ./scripts/auto.sh
+              run: ./auto.sh
