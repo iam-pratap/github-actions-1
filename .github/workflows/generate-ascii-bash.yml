@@ -12,8 +12,11 @@ jobs:
             - name: List repo files
               run: ls -ltra
 
+            - name: List root directory files
+              run: ls -ltra ./
+
             - name: Set execute permissions
-              run: chmod +x ./ascii-bash.sh
+              run: chmod +x ./bash.sh
 
             - name: Execute shell scripts
-              run: ./ascii-bash.sh
+              run: ./bash.sh
